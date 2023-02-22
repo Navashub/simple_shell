@@ -10,7 +10,7 @@ void _eputs(char *str)
 	int i = 0;
 
 	if (!str)
-		return (1);
+		return;
 	while (str[i] != '\0')
 	{
 		_eputchar(str[i]);
